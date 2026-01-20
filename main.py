@@ -71,6 +71,14 @@ def main():
         print("Enrichment completed.\n")
         print("Generating sales report...")
         generate_sales_report(valid_transactions, enriched_transactions, output_file='output/sales_report.txt')
+        print("=" * 40)
+        print("PROCESS COMPLETE!")
+        print("=" * 40)
+    
+        # Print the specific file locations
+        print(f"✓ Enriched data saved to: data/enriched_sales_data.txt")
+        print(f"✓ Analytics report saved to: output/sales_report.txt")
+        print("=" * 40)
 
 
 
