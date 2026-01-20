@@ -1,2 +1,2 @@
-requirements
-requests==2.31.0
+requests
+
