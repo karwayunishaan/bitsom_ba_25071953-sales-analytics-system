@@ -16,11 +16,13 @@ Setup Instructions
 To set up this project on your local machine, follow these steps:
 
 Clone the repository:
+
 git clone https://github.com/karwayunishaan/bitsom_ba_25071953-sales-analytics-system.git
+
 cd bitsom_ba_25071953-sales-analytics-system
 
 Install Dependencies: This project requires the requests library to handle API calls. Install it using:
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 
 How to Run
 Once the setup is complete, you can run the main application using:
