@@ -4,24 +4,24 @@ A Python-based data pipeline designed to process local sales transactions, valid
 Project Overview
 This system automates the workflow of a data analyst by:
 
-Reading raw sales data: Robust support for pipe-delimited text files.
+(a)Reading raw sales data: Robust support for pipe-delimited text files.
 
-Cleaning and Validation: Ensuring data quality across all transaction records.
+(b)Cleaning and Validation: Ensuring data quality across all transaction records.
 
-Data Enrichment: Integrating with the DummyJSON API to fetch extended product details like Brand and Rating.
+(c)Data Enrichment: Integrating with the DummyJSON API to fetch extended product details like Brand and Rating.
 
 Generating Reports: Creating an enriched_sales_data.txt file and a final analytics report.
 
 Setup Instructions
 To set up this project on your local machine, follow these steps:
 
-Clone the repository:
+1)Clone the repository:
 
-git clone https://github.com/karwayunishaan/bitsom_ba_25071953-sales-analytics-system.git
+(a) git clone https://github.com/karwayunishaan/bitsom_ba_25071953-sales-analytics-system.git
 
-cd bitsom_ba_25071953-sales-analytics-system
+(b) cd bitsom_ba_25071953-sales-analytics-system
 
-Install Dependencies: This project requires the requests library to handle API calls. Install it using:
+2) Install Dependencies: This project requires the requests library to handle API calls. Install it using:
 python -m pip install -r requirements.txt
 
 How to Run
